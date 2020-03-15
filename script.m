@@ -18,7 +18,7 @@ y_pp = y(end);
 %% ZAD2
 t_sim2 = 300;
 
-%konstruowanie sygna³ów steruj¹cych
+%konstruowanie sygnaÂ³Ã³w sterujÂ¹cych
 step_tim = 0;
 
 u_base = ones(1,step_tim)*u_pp;
@@ -46,7 +46,7 @@ stairs(0:t_sim2-1, y)
 hold on;
 stairs(0:t_sim2-1, y2)
 
-%% ZAD 3
+%% ZAD 3  -- tu zle, trzeba zobaczyÄ‡ jakie y ustali siÄ™ dla u = 0
 t_sim3 = 200;
 step_tim = 0;
 
