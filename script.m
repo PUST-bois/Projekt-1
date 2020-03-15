@@ -46,29 +46,41 @@ stairs(0:t_sim2-1, y)
 hold on;
 stairs(0:t_sim2-1, y2)
 
-%% ZAD 3  -- tu zle, trzeba zobaczyć jakie y ustali się dla u = 0
-t_sim3 = 200;
-step_tim = 0;
+%% ZAD 3  -- chyba ok ale ktos moze sprawdzic czy nie pomieszalem od ktorej chwili powinna byc odpowiedz skokowa
 
-u_base = ones(1,step_tim)*0;
-u_step_temp = ones(1,t_sim3 - step_tim);
+t_sim3 = 600;
 
+u = ones(1, t_sim3) * u_pp;
+y = zeros(1, t_sim3);
 
-u_step = [u_base, u_step_temp];
-
-
-y = ones(t_sim3, 1)*0;
-
+% Stabilizuje obiekt w punkcie pracy
 for k = 3:t_sim3
+
     if k-11 <= 0
         y(k) = symulacja_obiektu6Y(0,0,y(k-1),y(k-2));
     else
-        y(k) = symulacja_obiektu6Y(u_step(k-10),u_step(k-11),y(k-1),y(k-2));
+        y(k) = symulacja_obiektu6Y(u(k-10),u(k-11),y(k-1),y(k-2));
+    end
+    
+    if k == 200
+        y_pp = y(1,k);
+        u(200:t_sim3) = 1.4;
     end
 end
-
 
 figure(3)
 stairs(0:t_sim3-1, y)
 
-s = y;
+s = (y(201:t_sim3) - y_pp) / (abs(0.3));
+figure(4)
+stairs(0:size(s,2)-1, s)
+
+
+%% ZAD 4 - PID
+
+
+
+
+
+
+
