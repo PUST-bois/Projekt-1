@@ -1,3 +1,4 @@
+global s
 %% ZAD1
 %wyznaczanie y_pp dla u_pp = 1.1
 u_pp = 1.1;
@@ -79,27 +80,32 @@ figure(4)
 stairs(0:size(s)-1, s)
 
 
-%% ZAD 4 - PID
+%% ZAD 4A - PID
 
 du_max = 0.1;
 u_min = 0.6;
 u_max = 1.6;
 u_pp = 1.1;
 y_pp = 2.5;
-
+piderr = 0;
 % Nastawy
 T=1;
-K = 2.5;
-Ti = 60;
-Td = 0;
+params = [4.4817,   14.4945,    6.8265];
+K = params(1);  %8 to stale niegasnace oscylacje
+Ti = params(2);%14 gud (dla K = 4 (po³owa oscylacji) i dla Td = 0 dobieramy Ti)
+Td = params(3); %8 gud (dla wy¿ej dobranych K i Ti dobieramy Td)
+
 
 r0 = K * (1 + (T/(2*Ti)) + (Td/T));
 r1 = K * ((T/(2*Ti)) - (2*Td/T) - 1);
 r2 = K*Td/T;
 
 
-t_sim4 = 600;
+t_sim4 = 800;
 y_zad = ones(t_sim4, 1) * 2.7;
+y_zad(100:250) = 2.9;
+y_zad(250:400) = 2.7;
+y_zad(400:600) = 2.4;
 y = ones(t_sim4, 1) * y_pp;
 u = ones(t_sim4, 1) * u_pp;
 e = zeros(t_sim4, 1);
@@ -115,6 +121,7 @@ for k = 3:t_sim4
     end
   
     e(k) = y_zad(k) - y(k);
+    piderr = piderr + e(k)^2;
     du = r2*e(k-2) + r1*e(k-1) + r0*e(k);
     
     % Na³o¿enie ograniczeñ
@@ -132,21 +139,24 @@ for k = 3:t_sim4
     u(k) = uk;
 end
 
+piderr
 figure(5)
 stairs(0:t_sim4-1, y)
+hold on
+stairs(0:t_sim4-1, y_zad)
+hold off
 
 
 
 
+%% ZAD 4B - DMC moze dziala a moze nie xd (nie dobrane nastawy)
 
-%% ZAD 5 - DMC moze dziala a moze nie xd (nie dobrane nastawy)
 
-
-D = 200;
-N = 15;
-Nu = 15;
+D = 200;    %200 gud
+N = 32;     %32 gud (zaczynamy od N = Nu = D, zmniejszamy N i Nu jednoczeœnie a¿ najlepsze)
+Nu = 3;     %3 gud (dla dobranego wy¿ej N zmniejszamy Nu a¿ dobre)
 lambda = 1;
-
+dmcerr = 0;
 % Macierz M
 M = zeros(N,Nu);
 for i = 1:size(M,1)
@@ -178,8 +188,11 @@ for i = 1:D-1
 end
 
 
-t_sim4 = 600;
+t_sim4 = 800;
 y_zad = ones(t_sim4, 1) * 2.7;
+y_zad(100:250) = 2.9;
+y_zad(250:400) = 2.7;
+y_zad(400:600) = 2.4;
 y = ones(t_sim4, 1) * y_pp;
 u = ones(t_sim4, 1) * u_pp;
 du = zeros(t_sim4, 1);
@@ -196,11 +209,12 @@ for k = 3:t_sim4
     end
   
     e(k) = y_zad(k) - y(k);
+    dmcerr = dmcerr + e(k)^2;
     
     current_sum = 0;
     for i = 1:D-1
-        if k-j > 1
-            current_sum = current_sum + ku(i) * du(k-j);
+        if k-i > 1
+            current_sum = current_sum + ku(i) * du(k-i);
         end
     end
     duk = ke*e(k) - current_sum;
@@ -223,4 +237,18 @@ end
 
 figure(6)
 stairs(0:t_sim4-1, y)
-
+hold on
+stairs(0:t_sim4-1, y_zad)
+hold off
+dmcerr
+%% ZAD6
+%dmc_eval([100,100])
+x01 = [4, 14, 8];
+x02 = [32, 10];
+A = [];
+b = [];
+%objfun = @(params) dmc_eval(params);
+fmincon(@dmc_eval, x02, A, b)
+dmc_eval(ans)
+fmincon(@pid_eval, x01, A, b)
+pid_eval(ans)
