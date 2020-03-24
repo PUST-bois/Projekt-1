@@ -1,0 +1,11 @@
+\contentsline {chapter}{\numberline {1\relax .\enspace }Wstęp}{2}%
+\contentsline {section}{\numberline {1.1\relax .\enspace }Cel projektu}{2}%
+\contentsline {section}{\numberline {1.2\relax .\enspace }Opis algorytmów}{2}%
+\contentsline {subsection}{\numberline {1.2.1\relax .\enspace }PID}{2}%
+\contentsline {subsection}{\numberline {1.2.2\relax .\enspace }DMC}{2}%
+\contentsline {chapter}{\numberline {2\relax .\enspace }zad1}{4}%
+\contentsline {chapter}{\numberline {3\relax .\enspace }zad2}{5}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }zad3}{6}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }zad4}{7}%
+\contentsline {chapter}{\numberline {6\relax .\enspace }zad5}{8}%
+\contentsline {chapter}{\numberline {7\relax .\enspace }zad6}{9}%

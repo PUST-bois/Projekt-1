@@ -1,17 +1,18 @@
 \documentclass[a4paper,titlepage,11pt,twosides,floatssmall]{mwrep}
 \usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm]{geometry}
-\usepackage[OT1]{fontenc}
 \usepackage{polski}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{polski}
 \usepackage{graphicx}
 \usepackage{url}
 \usepackage{tikz}
 \usetikzlibrary{arrows,calc,decorations.markings,math,arrows.meta}
 \usepackage{rotating}
 \usepackage[percent]{overpic}
-\usepackage[cp1250]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage{xcolor}
 \usepackage{pgfplots}
 \usetikzlibrary{pgfplots.groupplots}
@@ -22,6 +23,8 @@
 \usepackage{siunitx}
 \sisetup{detect-weight,exponent-product=\cdot,output-decimal-marker={,},per-mode=symbol,binary-units=true,range-phrase={-},range-units=single}
 \SendSettingsToPgf
+   \DeclareUnicodeCharacter{2212}{FIX ME!!!!}
+
 %konfiguracje pakietu listings
 \lstset{
 	backgroundcolor=\color{szary},
@@ -59,7 +62,7 @@
 	stringstyle=\color{orange},
 }
 
-%wymiar tekstu (bez ¿ywej paginy)
+%wymiar tekstu (bez Å¼ywej paginy)
 \textwidth 160mm \textheight 247mm
 
 %ustawienia pakietu pgfplots
@@ -73,7 +76,7 @@ title style={font=\small}
 \def\figurename{Rys.}
 \def\tablename{Tab.}
 
-%konfiguracja liczby p³ywaj¹cych elementów
+%konfiguracja liczby pÅ‚ywajÄ…cych elementÃ³w
 \setcounter{topnumber}{0}%2
 \setcounter{bottomnumber}{3}%1
 \setcounter{totalnumber}{5}%3
@@ -86,22 +89,22 @@ title style={font=\small}
 \frenchspacing
 \pagestyle{uheadings}
 
-%strona tytu³owa
-\title{\bf Sprawozdanie z projektu i æwiczenia laboratoryjnego nr 1, zadanie nr 1\vskip 0.1cm}
-\author{Imiê i Nazwisko, Imiê i Nazwisko, Imiê i Nazwisko}
+%strona tytuÅ‚owa
+\title{\bf Sprawozdanie z projektu i Ä‡wiczenia laboratoryjnego nr 1, zadanie nr 1\vskip 0.1cm}
+\author{ImiÄ™ i Nazwisko, ImiÄ™ i Nazwisko, ImiÄ™ i Nazwisko}
 \date{2017}
 
 \makeatletter
 \renewcommand{\maketitle}{\begin{titlepage}
 \begin{center}{\LARGE {\bf
-Wydzia³ Elektroniki i Technik Informacyjnych}}\\
+WydziaÅ‚ Elektroniki i Technik Informacyjnych}}\\
 \vspace{0.4cm}
 {\LARGE {\bf Politechnika Warszawska}}\\
 \vspace{0.3cm}
 \end{center}
 \vspace{5cm}
 \begin{center}
-{\bf \LARGE Projektowanie uk³adów sterowania\\ (projekt grupowy) \vskip 0.1cm}
+{\bf \LARGE Projektowanie ukÅ‚adÃ³w sterowania\\ (projekt grupowy) \vskip 0.1cm}
 \end{center}
 \vspace{1cm}
 \begin{center}
@@ -117,10 +120,9 @@ Wydzia³ Elektroniki i Technik Informacyjnych}}\\
 \end{center}
 \end{titlepage}
 }
+
 \makeatother
-
 \maketitle
-
 \tableofcontents
 \input{wstep}
 \input{zad1}
