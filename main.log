@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.21)  24 MAR 2020 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.21)  25 MAR 2020 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -53,9 +53,18 @@ Package: iftex 2019/11/07 v1.0c TeX engine tests
 \Gm@layoutvoffset=\dimen143
 \Gm@dimlist=\toks16
 )
+(c:/texlive/2019/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
+)
+(c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
 (c:/texlive/2019/texmf-dist/tex/latex/polski/polski.sty
 Package: polski 2017/05/04 v1.3.4 Polish language package
 
+   Inputenc package detected. Catcodes not changed.
    Switching to Polish text encoding and Polish maths fonts.
 (c:/texlive/2019/texmf-dist/tex/latex/base/ot4enc.def
 File: ot4enc.def 2020/02/11 v2.0o Standard LaTeX file
@@ -110,7 +119,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
+\@emptytoks=\toks19
 \ex@=\dimen144
 ))
 (c:/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -140,21 +149,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \dotsspace@=\muskip16
 \c@parentequation=\count186
 \dspbrk@lvl=\count187
-\tag@help=\toks18
+\tag@help=\toks20
 \row@=\count188
 \column@=\count189
 \maxfields@=\count190
-\andhelp@=\toks19
+\andhelp@=\toks21
 \eqnshift@=\dimen147
 \alignsep@=\dimen148
 \tagshift@=\dimen149
 \tagwidth@=\dimen150
 \totwidth@=\dimen151
 \lineht@=\dimen152
-\@envbody=\toks20
+\@envbody=\toks22
 \multlinegap=\skip50
 \multlinetaggap=\skip51
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -200,7 +209,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 (c:/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (c:/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks22
+\pgfutil@everybye=\toks24
 \pgfutil@tempdima=\dimen155
 \pgfutil@tempdimb=\dimen156
 
@@ -223,11 +232,11 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks23
-\pgfkeys@temptoks=\toks24
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
 
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
-\pgfkeys@tmptoks=\toks25
+\pgfkeys@tmptoks=\toks27
 ))
 \pgf@x=\dimen157
 \pgf@y=\dimen158
@@ -245,9 +254,9 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 \c@pgf@countb=\count192
 \c@pgf@countc=\count193
 \c@pgf@countd=\count194
-\t@pgf@toka=\toks26
-\t@pgf@tokb=\toks27
-\t@pgf@tokc=\toks28
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
 \pgf@sys@id@count=\count195
  (c:/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
@@ -294,9 +303,9 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmath@dimen=\dimen167
 \pgfmath@count=\count198
 \pgfmath@box=\box48
-\pgfmath@toks=\toks29
-\pgfmath@stack@operand=\toks30
-\pgfmath@stack@operation=\toks31
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
 )
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.te
@@ -433,8 +442,8 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen194
 \pgffor@skip=\dimen195
-\pgffor@stack=\toks32
-\pgffor@toks=\toks33
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
 ))
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
@@ -512,7 +521,7 @@ braryfpu.code.tex
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex))
 \tikz@math@for@depth=\count279
 \tikz@math@dimen=\dimen269
-\tikz@math@toks=\toks34
+\tikz@math@toks=\toks36
 )
 (c:/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.cod
 e.tex
@@ -531,7 +540,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPtop=\skip52
 \rotFPbot=\skip53
 \rot@float@box=\box59
-\rot@mess@toks=\toks35
+\rot@mess@toks=\toks37
 )
 (c:/texlive/2019/texmf-dist/tex/latex/overpic/overpic.sty
 Package: overpic 2020/02/22 1.3 picture overlays (RN)
@@ -556,12 +565,7 @@ Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
 \@datafile=\read3
 )
 \OVP@box=\box61
-) (c:/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks36
-\inpenc@posthook=\toks37
-)
-(c:/texlive/2019/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+) (c:/texlive/2019/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (c:/texlive/2019/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 
@@ -783,25 +787,38 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 LaTeX Warning: Unused global option(s):
     [twosides].
 
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `t_T_i' multiply defined.
+
+
+LaTeX Warning: Label `t_T_i' multiply defined.
+
+
+LaTeX Warning: Label `t_T_i' multiply defined.
+
+
+LaTeX Warning: Label `t_T_i' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
-LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 88.
-LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -864,7 +881,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
 your preamble.
- on input line 88.
+ on input line 93.
 
 \c@lstlisting=\count339
 
@@ -878,50 +895,50 @@ File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 (c:/texlive/2019/texmf-dist/tex/latex/siunitx/siunitx-binary.cfg
 File: siunitx-binary.cfg 2017/11/26 v2.7k siunitx: Binary units
 )
-LaTeX Font Info:    Trying to load font information for OML+plm on input line 8
-8.
+LaTeX Font Info:    Trying to load font information for OML+plm on input line 9
+3.
 
 (c:/texlive/2019/texmf-dist/tex/latex/polski/omlplm.fd
 File: omlplm.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMS+plsy on input line 
-88.
+93.
 
 (c:/texlive/2019/texmf-dist/tex/latex/polski/omsplsy.fd
 File: omsplsy.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OMX+plex on input line 
-88.
+93.
 
 (c:/texlive/2019/texmf-dist/tex/latex/polski/omxplex.fd
 File: omxplex.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <10.95> on input line 88.
+(Font)              <10.95> on input line 93.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <8> on input line 88.
+(Font)              <8> on input line 93.
 LaTeX Font Info:    External font `plex10' loaded for size
-(Font)              <6> on input line 88.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
+(Font)              <6> on input line 93.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 93.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 93.
 
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT4+cmss on input line 
-88.
+93.
 
 (c:/texlive/2019/texmf-dist/tex/latex/polski/ot4cmss.fd
 File: ot4cmss.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
 )
 LaTeX Font Info:    Trying to load font information for OT4+cmtt on input line 
-88.
+93.
 
 (c:/texlive/2019/texmf-dist/tex/latex/polski/ot4cmtt.fd
 File: ot4cmtt.fd 2008/02/24 v1.2.1 Font defs for fonts PL (MW)
@@ -942,63 +959,431 @@ LaTeX Font Info:    External font `plex10' loaded for size
 
 ]
 Rozdzia\PlPrIeC {\l } 1.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
+.
+(c:/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Overfull \hbox (1.82208pt too wide) in paragraph at lines 3--6
+\T1/cmr/m/n/10.95 Symulacja obiek-tu od-by-wa-ªa si¦ za po-±red-nic-twem funk-c
+ji \T1/cmtt/m/n/10.95 symulacja_obiektu6Y\T1/cmr/m/n/10.95 . Usta-lo-no punkt
+ []
+
 [2
 
 ]) (./zad1.tex [3]
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <17.28> on input line 1.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <12> on input line 1.
+
 Rozdzia\PlPrIeC {\l } 2.
 ) (./zad2.tex [4
 
 ]
 Rozdzia\PlPrIeC {\l } 3.
-) (./zad3.tex [5
+[5
 
-]
+]) (./zad3.tex [6]
 Rozdzia\PlPrIeC {\l } 4.
-) (./zad4.tex [6
+<wykresy/odp_skok.pdf, id=51, 451.14948pt x 378.03836pt>
+File: wykresy/odp_skok.pdf Graphic file (type pdf)
+<use wykresy/odp_skok.pdf>
+Package pdftex.def Info: wykresy/odp_skok.pdf  used on input line 9.
+(pdftex.def)             Requested size: 451.14838pt x 378.03743pt.
+) (./zad4.tex [7
 
-]
+ <./wykresy/odp_skok.pdf>]
 Rozdzia\PlPrIeC {\l } 5.
-) (./zad5.tex [7
+[8
 
-]
+] [9]
 Rozdzia\PlPrIeC {\l } 6.
-) (./zad6.tex [8
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+117.
+(c:/texlive/2019/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \vbox (badness 1270) has occurred while \output is active []
+
+ [10
+
+])
+(./zad5.tex [11]
+Rozdzia\PlPrIeC {\l } 7.
+<rysunki/zapisz_pdf/y_zad.pdf, id=85, 227.95464pt x 182.016pt>
+File: rysunki/zapisz_pdf/y_zad.pdf Graphic file (type pdf)
+<use rysunki/zapisz_pdf/y_zad.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/y_zad.pdf  used on input line 12.
+(pdftex.def)             Requested size: 227.95407pt x 182.01556pt.
+<rysunki/zapisz_pdf/oscylacje.pdf, id=86, 459.24274pt x 294.0897pt>
+File: rysunki/zapisz_pdf/oscylacje.pdf Graphic file (type pdf)
+<use rysunki/zapisz_pdf/oscylacje.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/oscylacje.pdf  used on input line 3
+3.
+(pdftex.def)             Requested size: 459.24161pt x 294.08899pt.
+
+Overfull \hbox (3.99753pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=Inf_Td=0.00.pdf, id=87, 455.57602pt x 293.51
+254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=Inf_Td=0.00.pdf Graphic file (type pdf)
+
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=Inf_Td=0.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=Inf_Td=0.00.pdf  use
+d on input line 47.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+[12
+
+ <./rysunki/zapisz_pdf/y_zad.pdf>] [13 <./rysunki/zapisz_pdf/oscylacje.pdf> <./
+rysunki/zapisz_pdf/PID_K=1.975_Ti=Inf_Td=0.00.pdf>]
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=100.00_Td=0.00.pdf, id=127, 455.57602pt x 29
+3.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=100.00_Td=0.00.pdf Graphic file (type p
+df)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=100.00_Td=0.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=100.00_Td=0.00.pdf  
+used on input line 56.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=50.00_Td=0.00.pdf, id=128, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=50.00_Td=0.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=50.00_Td=0.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=50.00_Td=0.00.pdf  u
+sed on input line 63.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=20.00_Td=0.00.pdf, id=129, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=20.00_Td=0.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=20.00_Td=0.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=20.00_Td=0.00.pdf  u
+sed on input line 70.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=10.00_Td=0.00.pdf, id=130, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=10.00_Td=0.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=10.00_Td=0.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=10.00_Td=0.00.pdf  u
+sed on input line 77.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=25.00_Td=0.00.pdf, id=131, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=25.00_Td=0.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=25.00_Td=0.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=25.00_Td=0.00.pdf  u
+sed on input line 84.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.00.pdf, id=132, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.00.pdf  u
+sed on input line 91.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=30.00_Td=0.00.pdf, id=133, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=30.00_Td=0.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=30.00_Td=0.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=30.00_Td=0.00.pdf  u
+sed on input line 98.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=27.00_Td=0.00.pdf, id=134, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=27.00_Td=0.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=27.00_Td=0.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=27.00_Td=0.00.pdf  u
+sed on input line 105.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=22.00_Td=0.00.pdf, id=135, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=22.00_Td=0.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=22.00_Td=0.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=22.00_Td=0.00.pdf  u
+sed on input line 112.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=1.00.pdf, id=136, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=1.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=1.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=1.00.pdf  u
+sed on input line 146.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.50.pdf, id=137, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.50.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.50.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.50.pdf  u
+sed on input line 153.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.25.pdf, id=138, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.25.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.25.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.25.pdf  u
+sed on input line 160.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=2.00.pdf, id=139, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=2.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=2.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=2.00.pdf  u
+sed on input line 167.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=3.00.pdf, id=140, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=3.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=3.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=3.00.pdf  u
+sed on input line 174.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=4.00.pdf, id=141, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=4.00.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=4.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=4.00.pdf  u
+sed on input line 181.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./rysunki/zapisz_pdf/PID_K=1.975_Ti=100.00_Td=0.00.pdf>] [15 <./rysunki/z
+apisz_pdf/PID_K=1.975_Ti=50.00_Td=0.00.pdf> <./rysunki/zapisz_pdf/PID_K=1.975_T
+i=20.00_Td=0.00.pdf>]
+Overfull \vbox (15.6581pt too high) has occurred while \output is active []
+
+
+[16 <./rysunki/zapisz_pdf/PID_K=1.975_Ti=10.00_Td=0.00.pdf> <./rysunki/zapisz_p
+df/PID_K=1.975_Ti=25.00_Td=0.00.pdf>] [17 <./rysunki/zapisz_pdf/PID_K=1.975_Ti=
+24.00_Td=0.00.pdf> <./rysunki/zapisz_pdf/PID_K=1.975_Ti=30.00_Td=0.00.pdf>]
+[18 <./rysunki/zapisz_pdf/PID_K=1.975_Ti=27.00_Td=0.00.pdf> <./rysunki/zapisz_p
+df/PID_K=1.975_Ti=22.00_Td=0.00.pdf>]
+Underfull \vbox (badness 5847) has occurred while \output is active []
+
+ [19 <./rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=1.00.pdf> <./rysunki/zapisz_
+pdf/PID_K=1.975_Ti=24.00_Td=0.50.pdf>]
+<rysunki/zapisz_pdf/DMC_D=200.000_N=200.00_Nu=200.00.pdf, id=272, 455.57602pt x
+ 293.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=200.00_Nu=200.00.pdf Graphic file (typ
+e pdf)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=200.00_Nu=200.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=200.00_Nu=200.00.pd
+f  used on input line 225.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+ [20 <./rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.25.pdf> <./rysunki/zapisz_
+pdf/PID_K=1.975_Ti=24.00_Td=2.00.pdf>]
+<rysunki/zapisz_pdf/DMC_D=200.000_N=40.00_Nu=40.00.pdf, id=297, 455.57602pt x 2
+93.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=40.00_Nu=40.00.pdf Graphic file (type 
+pdf)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=40.00_Nu=40.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=40.00_Nu=40.00.pdf 
+ used on input line 232.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/DMC_D=200.000_N=30.00_Nu=30.00.pdf, id=298, 455.57602pt x 2
+93.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=30.00_Nu=30.00.pdf Graphic file (type 
+pdf)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=30.00_Nu=30.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=30.00_Nu=30.00.pdf 
+ used on input line 239.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/DMC_D=200.000_N=20.00_Nu=20.00.pdf, id=299, 455.57602pt x 2
+93.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=20.00_Nu=20.00.pdf Graphic file (type 
+pdf)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=20.00_Nu=20.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=20.00_Nu=20.00.pdf 
+ used on input line 246.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/DMC_D=200.000_N=35.00_Nu=35.00.pdf, id=300, 455.57602pt x 2
+93.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=35.00_Nu=35.00.pdf Graphic file (type 
+pdf)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=35.00_Nu=35.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=35.00_Nu=35.00.pdf 
+ used on input line 253.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/DMC_D=200.000_N=25.00_Nu=25.00.pdf, id=301, 455.57602pt x 2
+93.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=25.00_Nu=25.00.pdf Graphic file (type 
+pdf)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=25.00_Nu=25.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=25.00_Nu=25.00.pdf 
+ used on input line 260.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/DMC_D=200.000_N=27.00_Nu=27.00.pdf, id=302, 455.57602pt x 2
+93.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=27.00_Nu=27.00.pdf Graphic file (type 
+pdf)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=27.00_Nu=27.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=27.00_Nu=27.00.pdf 
+ used on input line 267.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=32.00.pdf, id=303, 455.57602pt x 2
+93.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=32.00.pdf Graphic file (type 
+pdf)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=32.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=32.00.pdf 
+ used on input line 274.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+ [21 <./rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=3.00.pdf> <./rysunki/zapisz_
+pdf/PID_K=1.975_Ti=24.00_Td=4.00.pdf>]
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=15.00.pdf, id=327, 455.57602pt x 2
+93.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=15.00.pdf Graphic file (type 
+pdf)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=15.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=15.00.pdf 
+ used on input line 308.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+ [22 <./rysunki/zapisz_pdf/DMC_D=200.000_N=200.00_Nu=200.00.pdf>]
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=10.00.pdf, id=341, 455.57602pt x 2
+93.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=10.00.pdf Graphic file (type 
+pdf)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=10.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=10.00.pdf 
+ used on input line 315.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=7.00.pdf, id=342, 455.57602pt x 29
+3.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=7.00.pdf Graphic file (type p
+df)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=7.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=7.00.pdf  
+used on input line 322.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=5.00.pdf, id=343, 455.57602pt x 29
+3.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=5.00.pdf Graphic file (type p
+df)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=5.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=5.00.pdf  
+used on input line 329.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=4.00.pdf, id=344, 455.57602pt x 29
+3.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=4.00.pdf Graphic file (type p
+df)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=4.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=4.00.pdf  
+used on input line 336.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=3.00.pdf, id=345, 455.57602pt x 29
+3.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=3.00.pdf Graphic file (type p
+df)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=3.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=3.00.pdf  
+used on input line 343.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+) (./zad6.tex [23 <./rysunki/zapisz_pdf/DMC_D=200.000_N=40.00_Nu=40.00.pdf> <./
+rysunki/zapisz_pdf/DMC_D=200.000_N=30.00_Nu=30.00.pdf>]
+Underfull \vbox (badness 5862) has occurred while \output is active []
+
+ [24 <./rysunki/zapisz_pdf/DMC_D=200.000_N=20.00_Nu=20.00.pdf> <./rysunki/zapis
+z_pdf/DMC_D=200.000_N=35.00_Nu=35.00.pdf>] [25 <./rysunki/zapisz_pdf/DMC_D=200.
+000_N=25.00_Nu=25.00.pdf> <./rysunki/zapisz_pdf/DMC_D=200.000_N=27.00_Nu=27.00.
+pdf>]
+[26 <./rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=32.00.pdf> <./rysunki/zapisz
+_pdf/DMC_D=200.000_N=32.00_Nu=15.00.pdf>] [27 <./rysunki/zapisz_pdf/DMC_D=200.0
+00_N=32.00_Nu=10.00.pdf> <./rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=7.00.pd
+f>] [28 <./rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=5.00.pdf> <./rysunki/zap
+isz_pdf/DMC_D=200.000_N=32.00_Nu=4.00.pdf>] [29 <./rysunki/zapisz_pdf/DMC_D=200
+.000_N=32.00_Nu=3.00.pdf>]
+Rozdzia\PlPrIeC {\l } 8.
+<rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf, id=499, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf  u
+sed on input line 18.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+<rysunki/zapisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf, id=500, 455.57602pt x 293
+.51254pt>
+File: rysunki/zapisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf Graphic file (type pd
+f)
+<use rysunki/zapisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf  u
+sed on input line 29.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+[30
 
 ]
-Rozdzia\PlPrIeC {\l } 7.
-) [9
+<rysunki/zapisz_pdf/DMC_D=200.000_N=44.00_Nu=5.00.pdf, id=506, 455.57602pt x 29
+3.51254pt>
+File: rysunki/zapisz_pdf/DMC_D=200.000_N=44.00_Nu=5.00.pdf Graphic file (type p
+df)
+<use rysunki/zapisz_pdf/DMC_D=200.000_N=44.00_Nu=5.00.pdf>
+Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=44.00_Nu=5.00.pdf  
+used on input line 86.
+(pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
+) [31 <./rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf>] [32 <./rysunki/z
+apisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf>] [33 <./rysunki/zapisz_pdf/DMC_D=20
+0.000_N=44.00_Nu=5.00.pdf>] (./main.aux)
 
-] (./main.aux) ) 
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 29746 strings out of 480994
- 741779 string characters out of 5916032
- 1040855 words of memory out of 5000000
- 44733 multiletter control sequences out of 15000+600000
- 554123 words of font info for 78 fonts, out of 8000000 for 9000
+ 30548 strings out of 480994
+ 761005 string characters out of 5916032
+ 1175443 words of memory out of 5000000
+ 45466 multiletter control sequences out of 15000+600000
+ 569264 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,16n,98p,736b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{c:/tex
-live/2019/texmf-dist/fonts/enc/dvips/pl/plms.enc}{c:/texlive/2019/texmf-dist/fo
-nts/enc/dvips/pl/plme.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/
-cm-super-t1.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/pl/plrm.enc}<c:/tex
-live/2019/texmf-dist/fonts/type1/public/pl/plex10.pfb><c:/texlive/2019/texmf-di
-st/fonts/type1/public/pl/plmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pub
-lic/pl/plmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmi8.pfb><c
-:/texlive/2019/texmf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2019/texm
-f-dist/fonts/type1/public/pl/plr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
-ublic/pl/plsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plsy8.pfb
+ 63i,16n,98p,1303b,1747s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
+ive/2019/texmf-dist/fonts/enc/dvips/pl/plrm.enc}{c:/texlive/2019/texmf-dist/fon
+ts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dv
+ips/pl/plmi.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/pl/plms.enc}{c:/tex
+live/2019/texmf-dist/fonts/enc/dvips/pl/plme.enc}<c:/texlive/2019/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plex10.pfb>
+<c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmi10.pfb><c:/texlive/2019/t
+exmf-dist/fonts/type1/public/pl/plmi12.pfb><c:/texlive/2019/texmf-dist/fonts/ty
+pe1/public/pl/plmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmi8
+.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmib10.pfb><c:/texlive/
+2019/texmf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2019/texmf-dist/fon
+ts/type1/public/pl/plr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/p
+lr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plr8.pfb><c:/texlive/
+2019/texmf-dist/fonts/type1/public/pl/plsy10.pfb><c:/texlive/2019/texmf-dist/fo
+nts/type1/public/pl/plsy6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl
+/plsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb
 ><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texli
 ve/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2019/te
 xmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2019/texmf-dist/f
 onts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2019/texmf-dist/fonts/type1
 /public/cm-super/sfbx1728.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm
--super/sfrm1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfr
-m1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-
-Output written on main.pdf (10 pages, 163961 bytes).
+-super/sfrm0600.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfr
+m0800.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+<c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texliv
+e/2019/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2019/tex
+mf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2019/texmf-dist/fo
+nts/type1/public/cm-super/sftt1095.pfb>
+Output written on main.pdf (34 pages, 1710067 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 640 PDF objects out of 1000 (max. 8388607)
+ 533 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 

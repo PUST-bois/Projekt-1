@@ -17,10 +17,7 @@ title('Przebieg sygna³u wyjœciowego dla ustalonego U_{PP}')
 xlabel('k')
 ylabel('y')
 
-x = 0:t_sim;
-xy = [x(:), y(:)];
 
-dlmwrite('wykresy/zad1_2/1.txt', xy, 'delimiter', ',');
 y_pp = y(end);
 
 %% ZAD2
@@ -92,8 +89,6 @@ title('Charakterystyka statyczna obiektu')
 xlabel('u')
 ylabel('y')
 
-x = 0.6:0.01:1.6;
-xy = [x(:), y_wyj(:)];
 dlmwrite('wykresy/zad1_2/char_stat.txt', xy, 'delimiter', ',');
 
 %% ZAD 3  -- chyba ok ale ktos moze sprawdzic czy nie pomieszalem od ktorej chwili powinna byc odpowiedz skokowa
