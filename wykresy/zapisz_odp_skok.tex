@@ -1,0 +1,40 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{pgfplots}
+\usepackage{siunitx}
+\sisetup{detect-weight,exponent-product=\cdot,output-decimal-marker={,},
+	per-mode=symbol,binary-units=true,range-phrase={-},range-units=single}
+\SendSettingsToPgf
+\usetikzlibrary{pgfplots.groupplots}
+\pgfplotsset{compat=1.11}
+\usepgfplotslibrary{external}
+\tikzexternalize
+
+\textwidth 160mm \textheight 247mm
+
+\pgfplotsset{width=\figurewidth,compat=1.11}
+\pgfplotsset{
+tick label style={font=\tiny},
+label style={font=\footnotesize},
+legend style={font=\footnotesize},
+title style={font=\footnotesize}
+}
+
+\begin{document}
+
+\tikzsetnextfilename{}
+
+\begin{figure}[tb]
+\tikzsetnextfilename{odp_skok}
+\begin{tikzpicture}
+\begin{axis}[
+width=\textwidth,
+xmin=0, xmax=500, ymin=0, ymax=1,
+xlabel={$i$},
+ylabel={$S_i$},
+]
+\addplot[red,semithick] file {dane/odp_skok.txt};
+\end{axis}
+\end{tikzpicture}
+\end{figure}
+
+\end{document}

@@ -1,0 +1,87 @@
+\chapter{Wstęp}
+\section{Cel projektu}
+Celem projektu było zbadanie właściwości danego obiektu oraz próba regulacji z wykorzystaniem dyskretnych algorytmów PID oraz DMC w wersji analitycznej. Częścią zadania było również uwzględnienie ograniczeń sterowania narzuconych w treści projektu.
+\section{Opis algorytmów}
+\subsection{PID}
+W zadaniu projektowym wykorzystany został regulator PID. Algorytm ten, na podstawie obliczonej wartości uchybu oraz dobranych nastaw, wyznacza wartość sterowania dla chwili k. Elementami struktury algorytmu są następujące stałe:
+\begin{itemize}
+	\item $K$ - stała proporcjonalna
+	\item $T_i$ - stała całkowania
+	\item $T_d$ - stała różniczkowania
+	\item $T$ - czas próbkowania
+\end{itemize}
+
+Dobranie nastaw algorytmu oznacza znalezienie możliwie optymalnych nastaw zapewniających najlepszą jakość regulacji.
+\par Po wyznaczeniu parametrów, należy obliczyć wpółczynniki prawa regulacji używając następujących wzorów:
+\begin{equation}
+    r_2 = \frac{KTd}{T}
+\end{equation}
+\begin{equation}
+    r_1 = K(\frac{T}{2T_i}-\frac{2T_d}{T}-1)
+\end{equation}
+\begin{equation}
+    r_0 = K(\frac{T}{2T_i}+\frac{T_d}{T}+1)
+\end{equation}
+Prawo regulacji rgulatora opisane jest równaniem:
+\begin{equation}
+    u(k) = r_2e(k-2)+r_1e(k-2)+r_0e(k) +u(k-1)
+\end{equation}
+
+
+\subsection{DMC}
+Regulator DMC jest algorytmem predykcyjnym wyznaczjącym trajektorię sygnału wyjściowego oraz przyszłe przyrosty sterowań. DMC potrzebuje wcześniejszej informacji o obiekcie w postaci odpowiedzi skokowej. Parametrami algorytmu są:
+\begin{itemize}
+    \item D - horyzont dynamiki
+    \item N - horyzont predykcji
+    \item $N_u$ - horyzont sterownia
+    \item $\lambda$ - kara za zmianę sterownia
+\end{itemize}
+
+Strojenie algorytmu polega na odpowiednim dobraniu parametrów tak, by zapewnić możliwie najlepszą jakość regulacji.
+
+\par Aby otrzymać prawo regulacji, należy wyznaczyć szereg współczynników:
+\newline Macierz dynamiczną oraz macierz K:
+\begin{gather}
+        M = \begin{bmatrix}
+            s_1 & 0 & \cdots & 0\\
+            s_2 & s_1 & \cdots & 0\\
+            \vdots & \vdots & \ddots & \vdots \\
+            s_N & s_{N-1} & \cdots & s_{N-N_u+1}
+        \end{bmatrix} \\
+         K = (M^T \Psi M + \Lambda)^{-1} M^T \Psi 
+\end{gather}
+\newline Macierz $M^P$ oraz wektor zmian sterowania $\Delta U^P$:
+\begin{gather}
+        M^P = \begin{bmatrix}
+            s_2-s_1 & s_3-s_2 & \cdots & s_D-s_{D-1}\\
+            s_3-s_1 & s_4-s_2 & \cdots & s_{D+1}-s_{D-1}\\
+            \vdots & \vdots & \ddots & \vdots \\
+            s_{N+1}-s_1 & s_{N+2}-s_2 & \cdots & s_{N+D-1}-s_{D-1}
+        \end{bmatrix} \\
+         \Delta U^P(k) = \begin{bmatrix}
+            \Delta u(k-1)\\
+            \Delta u(k-2)\\
+            \vdots\\
+            \Delta u(k-(D-1))
+        \end{bmatrix}
+\end{gather}
+
+Na podstawie powyższych macierzy oraz wektorów, można obliczyć parametry reguatora:
+\begin{gather}
+        k_e = \sum^N_{i=1}K_{1,i}\\
+	k_u = \overline{K}_1 M^P
+\end{gather}
+
+a następnie wyznaczyć sterowanie z następującego prawa regulacji:
+\begin{gather}
+	e(k) = y_{zad}(k) - y(k)\\
+    	u(k|k) = u(k - 1) + k_e e(k) - k_u \Delta U^P(k)
+\end{gather}
+
+Ograniczenie wartości sygnału sterującego przez wartości maksymalną i minimalną wykonane jest w następujący sposób:
+\begin{enumerate}
+    \item jeżeli $u(k|k) < u_{min}$ wtedy $u(k|k) = u_{min}$
+\item jeżeli jeżeli $u(k|k) > u_{max}$ wtedy $u(k|k) = u_{max}$
+max
+\item $u(k) = u(k|k)$
+\end{enumerate}

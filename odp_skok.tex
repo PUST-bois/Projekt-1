@@ -1,0 +1,46 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{pgfplots}
+\usepackage{siunitx}
+\sisetup{detect-weight,exponent-product=\cdot,output-decimal-marker={,},
+	per-mode=symbol,binary-units=true,range-phrase={-},range-units=single}
+\SendSettingsToPgf
+\usetikzlibrary{pgfplots.groupplots}
+\pgfplotsset{compat=1.11}
+\usepgfplotslibrary{external}
+\tikzexternalize
+
+\textwidth 160mm \textheight 247mm
+
+\pgfplotsset{width=\figurewidth,compat=1.11}
+\pgfplotsset{
+tick label style={font=\tiny},
+label style={font=\footnotesize},
+legend style={font=\footnotesize},
+title style={font=\footnotesize}
+}
+
+\begin{document}
+
+\tikzsetnextfilename{}
+
+\begin{figure}[tb]
+\tikzsetnextfilename{odp_skok}
+\begin{tikzpicture}
+width=0.5\textwidth,
+xlabel={$x$},
+ylabel={$f(x), \ g(x)$},
+]
+\addplot[red, semithick]                file {wykresy/odp_skok.txt};
+\legend{$s$}
+\end{tikzpicture}
+\end{figure}
+\end{document}
+
+
+
+
+
+
+
+
+
