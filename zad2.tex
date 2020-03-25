@@ -1,7 +1,7 @@
 \chapter{Badanie obiektu}
 \section{Symulacja różnych odpowiedzi skokowych obiektu}
 
-Poniżej zamieszczono kod programu przeprowadzającego symulację obiektu uzyskując różne odpowiedzi skokowe. 
+Poniżej zamieszczono kod programu przeprowadzającego symulację obiektu dla ustalonegych $u$  z przedziału $ \langle  U^{\textrm{min}}, U^{\textrm{max}}\rangle $ uzyskując różne odpowiedzi skokowe. 
 
 \begin{lstlisting}[style=Matlab-editor, basicstyle=\tiny]
 t_sim2 = 300;
@@ -36,7 +36,11 @@ end
 \end{lstlisting}
 
 W wyniku przeprowadzenia symulacji, otrzymano następujące przebiegi:
-\par \textbf{TODO}
+\begin{figure}[h] 
+\centering 
+\includegraphics[scale=1.4]{wykresy/zad1_2/2_1.pdf} 
+\caption{Odpowiedzi układu dla ustalonegych $u$  z przedziału $ \langle  U^{\textrm{min}}, U^{\textrm{max}}\rangle $ } 
+\end{figure}
 
 \par Na pierwszy rzut oka, obiekt wydaje się mieć liniową strukturę. Aby jednak to potwierdzić, należy wyznaczyć charakterystykę statyczną.
 
@@ -59,7 +63,11 @@ end
 \end{lstlisting}
 
 Poniżej zaprezentowany został wynik symulacji:
-\par \textbf{TODO}
+\begin{figure}[h] 
+\centering 
+\includegraphics[scale=1.4]{wykresy/zad1_2/char_stat.pdf} 
+\caption{Przybliżona charakterystyka statyczna układu} 
+\end{figure}
 Wyraźnie widać, że charakterystyka statyczna obiektu jest liniowa. Można zatem obliczyć wzmocnienie statyczne obiektu mając na uwadzę zależność:
 
 \begin{equation}

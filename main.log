@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.21)  25 MAR 2020 19:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.21)  25 MAR 2020 20:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,15 +978,31 @@ LaTeX Font Info:    External font `plex10' loaded for size
 (Font)              <12> on input line 1.
 
 Rozdzia\PlPrIeC {\l } 2.
+<wykresy/zad1_2/1_1.pdf, id=37, 216.06021pt x 182.02103pt>
+File: wykresy/zad1_2/1_1.pdf Graphic file (type pdf)
+<use wykresy/zad1_2/1_1.pdf>
+Package pdftex.def Info: wykresy/zad1_2/1_1.pdf  used on input line 25.
+(pdftex.def)             Requested size: 302.48222pt x 254.82768pt.
 ) (./zad2.tex [4
 
-]
+ <./wykresy/zad1_2/1_1.pdf>]
 Rozdzia\PlPrIeC {\l } 3.
+<wykresy/zad1_2/2_1.pdf, id=54, 213.05698pt x 182.01802pt>
+File: wykresy/zad1_2/2_1.pdf Graphic file (type pdf)
+<use wykresy/zad1_2/2_1.pdf>
+Package pdftex.def Info: wykresy/zad1_2/2_1.pdf  used on input line 41.
+(pdftex.def)             Requested size: 298.27773pt x 254.82347pt.
 [5
 
-]) (./zad3.tex [6]
+ <./wykresy/zad1_2/2_1.pdf>]
+<wykresy/zad1_2/char_stat.pdf, id=78, 221.3108pt x 180.81552pt>
+File: wykresy/zad1_2/char_stat.pdf Graphic file (type pdf)
+<use wykresy/zad1_2/char_stat.pdf>
+Package pdftex.def Info: wykresy/zad1_2/char_stat.pdf  used on input line 68.
+(pdftex.def)             Requested size: 309.83301pt x 253.14pt.
+) (./zad3.tex [6 <./wykresy/zad1_2/char_stat.pdf>]
 Rozdzia\PlPrIeC {\l } 4.
-<wykresy/odp_skok.pdf, id=51, 451.14948pt x 378.03836pt>
+<wykresy/odp_skok.pdf, id=93, 451.14948pt x 378.03836pt>
 File: wykresy/odp_skok.pdf Graphic file (type pdf)
 <use wykresy/odp_skok.pdf>
 Package pdftex.def Info: wykresy/odp_skok.pdf  used on input line 9.
@@ -1011,12 +1027,12 @@ Underfull \vbox (badness 1270) has occurred while \output is active []
 ])
 (./zad5.tex [11]
 Rozdzia\PlPrIeC {\l } 7.
-<rysunki/zapisz_pdf/y_zad.pdf, id=85, 227.95464pt x 182.016pt>
+<rysunki/zapisz_pdf/y_zad.pdf, id=121, 227.95464pt x 182.016pt>
 File: rysunki/zapisz_pdf/y_zad.pdf Graphic file (type pdf)
 <use rysunki/zapisz_pdf/y_zad.pdf>
 Package pdftex.def Info: rysunki/zapisz_pdf/y_zad.pdf  used on input line 12.
 (pdftex.def)             Requested size: 227.95407pt x 182.01556pt.
-<rysunki/zapisz_pdf/oscylacje.pdf, id=86, 459.24274pt x 294.0897pt>
+<rysunki/zapisz_pdf/oscylacje.pdf, id=122, 459.24274pt x 294.0897pt>
 File: rysunki/zapisz_pdf/oscylacje.pdf Graphic file (type pdf)
 <use rysunki/zapisz_pdf/oscylacje.pdf>
 Package pdftex.def Info: rysunki/zapisz_pdf/oscylacje.pdf  used on input line 3
@@ -1027,8 +1043,8 @@ Overfull \hbox (3.99753pt too wide) in paragraph at lines 33--34
  [][] 
  []
 
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=Inf_Td=0.00.pdf, id=87, 455.57602pt x 293.51
-254pt>
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=Inf_Td=0.00.pdf, id=123, 455.57602pt x 293.5
+1254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=Inf_Td=0.00.pdf Graphic file (type pdf)
 
 <use rysunki/zapisz_pdf/PID_K=1.975_Ti=Inf_Td=0.00.pdf>
@@ -1039,7 +1055,7 @@ d on input line 47.
 
  <./rysunki/zapisz_pdf/y_zad.pdf>] [13 <./rysunki/zapisz_pdf/oscylacje.pdf> <./
 rysunki/zapisz_pdf/PID_K=1.975_Ti=Inf_Td=0.00.pdf>]
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=100.00_Td=0.00.pdf, id=127, 455.57602pt x 29
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=100.00_Td=0.00.pdf, id=163, 455.57602pt x 29
 3.51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=100.00_Td=0.00.pdf Graphic file (type p
 df)
@@ -1047,7 +1063,7 @@ df)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=100.00_Td=0.00.pdf  
 used on input line 56.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=50.00_Td=0.00.pdf, id=128, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=50.00_Td=0.00.pdf, id=164, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=50.00_Td=0.00.pdf Graphic file (type pd
 f)
@@ -1055,7 +1071,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=50.00_Td=0.00.pdf  u
 sed on input line 63.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=20.00_Td=0.00.pdf, id=129, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=20.00_Td=0.00.pdf, id=165, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=20.00_Td=0.00.pdf Graphic file (type pd
 f)
@@ -1063,7 +1079,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=20.00_Td=0.00.pdf  u
 sed on input line 70.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=10.00_Td=0.00.pdf, id=130, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=10.00_Td=0.00.pdf, id=166, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=10.00_Td=0.00.pdf Graphic file (type pd
 f)
@@ -1071,7 +1087,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=10.00_Td=0.00.pdf  u
 sed on input line 77.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=25.00_Td=0.00.pdf, id=131, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=25.00_Td=0.00.pdf, id=167, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=25.00_Td=0.00.pdf Graphic file (type pd
 f)
@@ -1079,7 +1095,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=25.00_Td=0.00.pdf  u
 sed on input line 84.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.00.pdf, id=132, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.00.pdf, id=168, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.00.pdf Graphic file (type pd
 f)
@@ -1087,7 +1103,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.00.pdf  u
 sed on input line 91.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=30.00_Td=0.00.pdf, id=133, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=30.00_Td=0.00.pdf, id=169, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=30.00_Td=0.00.pdf Graphic file (type pd
 f)
@@ -1095,7 +1111,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=30.00_Td=0.00.pdf  u
 sed on input line 98.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=27.00_Td=0.00.pdf, id=134, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=27.00_Td=0.00.pdf, id=170, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=27.00_Td=0.00.pdf Graphic file (type pd
 f)
@@ -1103,7 +1119,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=27.00_Td=0.00.pdf  u
 sed on input line 105.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=22.00_Td=0.00.pdf, id=135, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=22.00_Td=0.00.pdf, id=171, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=22.00_Td=0.00.pdf Graphic file (type pd
 f)
@@ -1111,7 +1127,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=22.00_Td=0.00.pdf  u
 sed on input line 112.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=1.00.pdf, id=136, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=1.00.pdf, id=172, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=1.00.pdf Graphic file (type pd
 f)
@@ -1119,7 +1135,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=1.00.pdf  u
 sed on input line 146.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.50.pdf, id=137, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.50.pdf, id=173, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.50.pdf Graphic file (type pd
 f)
@@ -1127,7 +1143,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.50.pdf  u
 sed on input line 153.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.25.pdf, id=138, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.25.pdf, id=174, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.25.pdf Graphic file (type pd
 f)
@@ -1135,7 +1151,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.25.pdf  u
 sed on input line 160.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=2.00.pdf, id=139, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=2.00.pdf, id=175, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=2.00.pdf Graphic file (type pd
 f)
@@ -1143,7 +1159,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=2.00.pdf  u
 sed on input line 167.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=3.00.pdf, id=140, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=3.00.pdf, id=176, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=3.00.pdf Graphic file (type pd
 f)
@@ -1151,7 +1167,7 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=3.00.pdf  u
 sed on input line 174.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=4.00.pdf, id=141, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=4.00.pdf, id=177, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=4.00.pdf Graphic file (type pd
 f)
@@ -1177,7 +1193,7 @@ Underfull \vbox (badness 5847) has occurred while \output is active []
 
  [19 <./rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=1.00.pdf> <./rysunki/zapisz_
 pdf/PID_K=1.975_Ti=24.00_Td=0.50.pdf>]
-<rysunki/zapisz_pdf/DMC_D=200.000_N=200.00_Nu=200.00.pdf, id=272, 455.57602pt x
+<rysunki/zapisz_pdf/DMC_D=200.000_N=200.00_Nu=200.00.pdf, id=309, 455.57602pt x
  293.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=200.00_Nu=200.00.pdf Graphic file (typ
 e pdf)
@@ -1187,7 +1203,7 @@ f  used on input line 225.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
  [20 <./rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=0.25.pdf> <./rysunki/zapisz_
 pdf/PID_K=1.975_Ti=24.00_Td=2.00.pdf>]
-<rysunki/zapisz_pdf/DMC_D=200.000_N=40.00_Nu=40.00.pdf, id=297, 455.57602pt x 2
+<rysunki/zapisz_pdf/DMC_D=200.000_N=40.00_Nu=40.00.pdf, id=333, 455.57602pt x 2
 93.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=40.00_Nu=40.00.pdf Graphic file (type 
 pdf)
@@ -1195,7 +1211,7 @@ pdf)
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=40.00_Nu=40.00.pdf 
  used on input line 232.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/DMC_D=200.000_N=30.00_Nu=30.00.pdf, id=298, 455.57602pt x 2
+<rysunki/zapisz_pdf/DMC_D=200.000_N=30.00_Nu=30.00.pdf, id=334, 455.57602pt x 2
 93.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=30.00_Nu=30.00.pdf Graphic file (type 
 pdf)
@@ -1203,7 +1219,7 @@ pdf)
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=30.00_Nu=30.00.pdf 
  used on input line 239.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/DMC_D=200.000_N=20.00_Nu=20.00.pdf, id=299, 455.57602pt x 2
+<rysunki/zapisz_pdf/DMC_D=200.000_N=20.00_Nu=20.00.pdf, id=335, 455.57602pt x 2
 93.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=20.00_Nu=20.00.pdf Graphic file (type 
 pdf)
@@ -1211,7 +1227,7 @@ pdf)
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=20.00_Nu=20.00.pdf 
  used on input line 246.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/DMC_D=200.000_N=35.00_Nu=35.00.pdf, id=300, 455.57602pt x 2
+<rysunki/zapisz_pdf/DMC_D=200.000_N=35.00_Nu=35.00.pdf, id=336, 455.57602pt x 2
 93.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=35.00_Nu=35.00.pdf Graphic file (type 
 pdf)
@@ -1219,7 +1235,7 @@ pdf)
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=35.00_Nu=35.00.pdf 
  used on input line 253.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/DMC_D=200.000_N=25.00_Nu=25.00.pdf, id=301, 455.57602pt x 2
+<rysunki/zapisz_pdf/DMC_D=200.000_N=25.00_Nu=25.00.pdf, id=337, 455.57602pt x 2
 93.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=25.00_Nu=25.00.pdf Graphic file (type 
 pdf)
@@ -1227,7 +1243,7 @@ pdf)
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=25.00_Nu=25.00.pdf 
  used on input line 260.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/DMC_D=200.000_N=27.00_Nu=27.00.pdf, id=302, 455.57602pt x 2
+<rysunki/zapisz_pdf/DMC_D=200.000_N=27.00_Nu=27.00.pdf, id=338, 455.57602pt x 2
 93.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=27.00_Nu=27.00.pdf Graphic file (type 
 pdf)
@@ -1235,7 +1251,7 @@ pdf)
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=27.00_Nu=27.00.pdf 
  used on input line 267.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=32.00.pdf, id=303, 455.57602pt x 2
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=32.00.pdf, id=339, 455.57602pt x 2
 93.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=32.00.pdf Graphic file (type 
 pdf)
@@ -1245,7 +1261,7 @@ Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=32.00.pdf
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
  [21 <./rysunki/zapisz_pdf/PID_K=1.975_Ti=24.00_Td=3.00.pdf> <./rysunki/zapisz_
 pdf/PID_K=1.975_Ti=24.00_Td=4.00.pdf>]
-<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=15.00.pdf, id=327, 455.57602pt x 2
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=15.00.pdf, id=363, 455.57602pt x 2
 93.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=15.00.pdf Graphic file (type 
 pdf)
@@ -1254,7 +1270,7 @@ Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=15.00.pdf
  used on input line 308.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
  [22 <./rysunki/zapisz_pdf/DMC_D=200.000_N=200.00_Nu=200.00.pdf>]
-<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=10.00.pdf, id=341, 455.57602pt x 2
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=10.00.pdf, id=377, 455.57602pt x 2
 93.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=10.00.pdf Graphic file (type 
 pdf)
@@ -1262,7 +1278,7 @@ pdf)
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=10.00.pdf 
  used on input line 315.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=7.00.pdf, id=342, 455.57602pt x 29
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=7.00.pdf, id=378, 455.57602pt x 29
 3.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=7.00.pdf Graphic file (type p
 df)
@@ -1270,7 +1286,7 @@ df)
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=7.00.pdf  
 used on input line 322.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=5.00.pdf, id=343, 455.57602pt x 29
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=5.00.pdf, id=379, 455.57602pt x 29
 3.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=5.00.pdf Graphic file (type p
 df)
@@ -1278,7 +1294,7 @@ df)
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=5.00.pdf  
 used on input line 329.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=4.00.pdf, id=344, 455.57602pt x 29
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=4.00.pdf, id=380, 455.57602pt x 29
 3.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=4.00.pdf Graphic file (type p
 df)
@@ -1286,7 +1302,7 @@ df)
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=4.00.pdf  
 used on input line 336.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=3.00.pdf, id=345, 455.57602pt x 29
+<rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=3.00.pdf, id=381, 455.57602pt x 29
 3.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=3.00.pdf Graphic file (type p
 df)
@@ -1309,7 +1325,7 @@ f>] [28 <./rysunki/zapisz_pdf/DMC_D=200.000_N=32.00_Nu=5.00.pdf> <./rysunki/zap
 isz_pdf/DMC_D=200.000_N=32.00_Nu=4.00.pdf>] [29 <./rysunki/zapisz_pdf/DMC_D=200
 .000_N=32.00_Nu=3.00.pdf>]
 Rozdzia\PlPrIeC {\l } 8.
-<rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf, id=499, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf, id=536, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf Graphic file (type pd
 f)
@@ -1317,40 +1333,37 @@ f)
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf  u
 sed on input line 18.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-<rysunki/zapisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf, id=500, 455.57602pt x 293
+<rysunki/zapisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf, id=537, 455.57602pt x 293
 .51254pt>
 File: rysunki/zapisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf Graphic file (type pd
 f)
 <use rysunki/zapisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf>
 Package pdftex.def Info: rysunki/zapisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf  u
-sed on input line 33.
+sed on input line 25.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [30
+[30
 
 ]
-[31 <./rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf>]
-<rysunki/zapisz_pdf/DMC_D=200.000_N=44.00_Nu=5.00.pdf, id=520, 455.57602pt x 29
+<rysunki/zapisz_pdf/DMC_D=200.000_N=44.00_Nu=5.00.pdf, id=543, 455.57602pt x 29
 3.51254pt>
 File: rysunki/zapisz_pdf/DMC_D=200.000_N=44.00_Nu=5.00.pdf Graphic file (type p
 df)
 <use rysunki/zapisz_pdf/DMC_D=200.000_N=44.00_Nu=5.00.pdf>
 Package pdftex.def Info: rysunki/zapisz_pdf/DMC_D=200.000_N=44.00_Nu=5.00.pdf  
-used on input line 98.
+used on input line 77.
 (pdftex.def)             Requested size: 455.57489pt x 293.51181pt.
-) [32 <./rysunki/zapisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf>] [33 <./rysunki/z
-apisz_pdf/DMC_D=200.000_N=44.00_Nu=5.00.pdf>] (./main.aux)
+) [31 <./rysunki/zapisz_pdf/PID_K=4.340_Ti=12.41_Td=8.10.pdf>] [32 <./rysunki/z
+apisz_pdf/PID_K=3.963_Ti=13.62_Td=7.87.pdf> <./rysunki/zapisz_pdf/DMC_D=200.000
+_N=44.00_Nu=5.00.pdf>] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30548 strings out of 480994
- 761005 string characters out of 5916032
- 1175443 words of memory out of 5000000
- 45466 multiletter control sequences out of 15000+600000
+ 30567 strings out of 480994
+ 761536 string characters out of 5916032
+ 1147443 words of memory out of 5000000
+ 45481 multiletter control sequences out of 15000+600000
  569264 words of font info for 114 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,16n,98p,1303b,1747s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1361,32 +1374,34 @@ ips/pl/plmi.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/pl/plms.enc}{c:/tex
 live/2019/texmf-dist/fonts/enc/dvips/pl/plme.enc}<c:/texlive/2019/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmmi9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plex10.pfb>
-<c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmi10.pfb><c:/texlive/2019/t
-exmf-dist/fonts/type1/public/pl/plmi12.pfb><c:/texlive/2019/texmf-dist/fonts/ty
-pe1/public/pl/plmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmi8
-.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmib10.pfb><c:/texlive/
-2019/texmf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2019/texmf-dist/fon
-ts/type1/public/pl/plr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/p
-lr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plr8.pfb><c:/texlive/
-2019/texmf-dist/fonts/type1/public/pl/plsy10.pfb><c:/texlive/2019/texmf-dist/fo
-nts/type1/public/pl/plsy6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl
-/plsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb
-><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texli
-ve/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2019/te
-xmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2019/texmf-dist/f
-onts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2019/texmf-dist/fonts/type1
-/public/cm-super/sfbx1728.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm
--super/sfrm0600.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfr
-m0800.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-<c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texliv
-e/2019/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2019/tex
-mf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2019/texmf-dist/fo
-nts/type1/public/cm-super/sftt1095.pfb>
-Output written on main.pdf (34 pages, 1710410 bytes).
+fonts/cm/cmr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r9.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plex10.pfb><c:/texlive
+/2019/texmf-dist/fonts/type1/public/pl/plmi10.pfb><c:/texlive/2019/texmf-dist/f
+onts/type1/public/pl/plmi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
+pl/plmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmi8.pfb><c:/te
+xlive/2019/texmf-dist/fonts/type1/public/pl/plmib10.pfb><c:/texlive/2019/texmf-
+dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pu
+blic/pl/plr6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plr7.pfb><c:
+/texlive/2019/texmf-dist/fonts/type1/public/pl/plr8.pfb><c:/texlive/2019/texmf-
+dist/fonts/type1/public/pl/plsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
+ublic/pl/plsy6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plsy8.pfb>
+<c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx0700.pfb><c:/texliv
+e/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2019/tex
+mf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2019/texmf-dist/fo
+nts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/
+public/cm-super/sfbx1440.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-
+super/sfbx1728.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm
+0600.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><
+c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive
+/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2019/texm
+f-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2019/texmf-dist/fon
+ts/type1/public/cm-super/sfti1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
+ublic/cm-super/sfti1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-s
+uper/sftt1095.pfb>
+Output written on main.pdf (33 pages, 1742118 bytes).
 PDF statistics:
- 640 PDF objects out of 1000 (max. 8388607)
- 533 compressed objects within 6 object streams
+ 677 PDF objects out of 1000 (max. 8388607)
+ 566 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 208 words of extra memory for PDF output out of 10000 (max. 10000000)
 
