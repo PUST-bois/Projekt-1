@@ -3,7 +3,8 @@
 \contentsline {section}{\numberline {1.2\relax .\enspace }Opis algorytmów}{2}%
 \contentsline {subsection}{\numberline {1.2.1\relax .\enspace }PID}{2}%
 \contentsline {subsection}{\numberline {1.2.2\relax .\enspace }DMC}{2}%
-\contentsline {chapter}{\numberline {2\relax .\enspace }zad1}{4}%
+\contentsline {chapter}{\numberline {2\relax .\enspace }Zadanie 1}{4}%
+\contentsline {section}{\numberline {2.1\relax .\enspace }Sprawdzenie poprawności wartości początkowych $U_{\textrm {PP}}$ oraz $Y_{\textrm {PP}}$}{4}%
 \contentsline {chapter}{\numberline {3\relax .\enspace }zad2}{5}%
 \contentsline {chapter}{\numberline {4\relax .\enspace }zad3}{6}%
 \contentsline {chapter}{\numberline {5\relax .\enspace }zad4}{7}%

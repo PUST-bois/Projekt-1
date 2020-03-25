@@ -1,1 +1,21 @@
-\chapter{zad1}
+\chapter{Zadanie 1}
+
+\section{Sprawdzenie poprawności wartości początkowych $U_{\textrm{PP}}$ oraz $Y_{\textrm{PP}}$}
+
+\begin{lstlisting}[style=Matlab-editor]
+%wyznaczanie y_pp dla u_pp = 1.1
+u_pp = 1.1;
+
+t_sim = 300;
+y = [0;0];
+
+for k=2:t_sim
+    y_temp = symulacja_obiektu6Y(u_pp,u_pp,y(k),y(k-1));
+    y = [y;y_temp];
+end
+
+figure(1)
+stairs(0:t_sim,y)
+
+y_pp = y(end);
+\end{lstlisting}

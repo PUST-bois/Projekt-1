@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.21)  24 MAR 2020 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.21)  25 MAR 2020 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -942,10 +942,16 @@ LaTeX Font Info:    External font `plex10' loaded for size
 
 ]
 Rozdzia\PlPrIeC {\l } 1.
-[2
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
+.
+(c:/texlive/2019/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [2
 
 ]) (./zad1.tex [3]
 Rozdzia\PlPrIeC {\l } 2.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <12> on input line 3.
 ) (./zad2.tex [4
 
 ]
@@ -970,35 +976,39 @@ Rozdzia\PlPrIeC {\l } 7.
 
 ] (./main.aux) ) 
 Here is how much of TeX's memory you used:
- 29746 strings out of 480994
- 741779 string characters out of 5916032
- 1040855 words of memory out of 5000000
- 44733 multiletter control sequences out of 15000+600000
- 554123 words of font info for 78 fonts, out of 8000000 for 9000
+ 30106 strings out of 480994
+ 745615 string characters out of 5916032
+ 1063855 words of memory out of 5000000
+ 45079 multiletter control sequences out of 15000+600000
+ 561409 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,16n,98p,736b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{c:/tex
-live/2019/texmf-dist/fonts/enc/dvips/pl/plms.enc}{c:/texlive/2019/texmf-dist/fo
-nts/enc/dvips/pl/plme.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/
-cm-super-t1.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/pl/plrm.enc}<c:/tex
+ 63i,16n,98p,736b,1293s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t
+1.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{c:/texlive/2019/
+texmf-dist/fonts/enc/dvips/pl/plms.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dv
+ips/pl/plme.enc}{c:/texlive/2019/texmf-dist/fonts/enc/dvips/pl/plrm.enc}<c:/tex
 live/2019/texmf-dist/fonts/type1/public/pl/plex10.pfb><c:/texlive/2019/texmf-di
 st/fonts/type1/public/pl/plmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pub
-lic/pl/plmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmi8.pfb><c
-:/texlive/2019/texmf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2019/texm
-f-dist/fonts/type1/public/pl/plr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/p
-ublic/pl/plsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plsy8.pfb
-><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texli
-ve/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2019/te
-xmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2019/texmf-dist/f
-onts/type1/public/cm-super/sfbx1440.pfb><c:/texlive/2019/texmf-dist/fonts/type1
-/public/cm-super/sfbx1728.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm
--super/sfrm1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfr
-m1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-
-Output written on main.pdf (10 pages, 163961 bytes).
+lic/pl/plmi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmi6.pfb><
+c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plmi8.pfb><c:/texlive/2019/tex
+mf-dist/fonts/type1/public/pl/plr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1
+/public/pl/plr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plsy10.pf
+b><c:/texlive/2019/texmf-dist/fonts/type1/public/pl/plsy8.pfb><c:/texlive/2019/
+texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2019/texmf-dist
+/fonts/type1/public/cm-super/sfbx1000.pfb><c:/texlive/2019/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx1095.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/
+cm-super/sfbx1200.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/s
+fbx1440.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pf
+b><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texl
+ive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2019/t
+exmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2019/texmf-dist/
+fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2019/texmf-dist/fonts/type
+1/public/cm-super/sfti1000.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/c
+m-super/sftt1095.pfb>
+Output written on main.pdf (10 pages, 235992 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 129 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
