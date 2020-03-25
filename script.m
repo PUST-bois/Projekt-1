@@ -20,7 +20,7 @@ ylabel('y')
 x = 0:t_sim;
 xy = [x(:), y(:)];
 
-dlmwrite('wykresy/zad1_2/1.txt', xy, 'delimiter', ',');
+dlmwrite('wykresy/zad1_2/1.txt', xy, 'delimiter', ' ');
 y_pp = y(end);
 
 %% ZAD2
@@ -67,9 +67,9 @@ x = 0:t_sim2-1;
 xy = [x(:), y(:)];
 xy2 = [x(:), y2(:)];
 xy3 = [x(:), y3(:)];
-dlmwrite('wykresy/zad1_2/2_1_1.txt', xy, 'delimiter', ',');
-dlmwrite('wykresy/zad1_2/2_1_2.txt', xy2, 'delimiter', ',');
-dlmwrite('wykresy/zad1_2/2_1_3.txt', xy3, 'delimiter', ',');
+dlmwrite('wykresy/zad1_2/2_1_1.txt', xy, 'delimiter', ' ');
+dlmwrite('wykresy/zad1_2/2_1_2.txt', xy2, 'delimiter', ' ');
+dlmwrite('wykresy/zad1_2/2_1_3.txt', xy3, 'delimiter', ' ');
 
 %%
 %charakterystyka statyczna
@@ -94,7 +94,7 @@ ylabel('y')
 
 x = 0.6:0.01:1.6;
 xy = [x(:), y_wyj(:)];
-dlmwrite('wykresy/zad1_2/char_stat.txt', xy, 'delimiter', ',');
+dlmwrite('wykresy/zad1_2/char_stat.txt', xy, 'delimiter', ' ');
 
 %% ZAD 3  -- chyba ok ale ktos moze sprawdzic czy nie pomieszalem od ktorej chwili powinna byc odpowiedz skokowa
 
