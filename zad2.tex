@@ -3,7 +3,15 @@
 
 Poniżej zamieszczono kod programu przeprowadzającego symulację obiektu dla ustalonegych $u$  z przedziału $ \langle  U^{\textrm{min}}, U^{\textrm{max}}\rangle $ uzyskując różne odpowiedzi skokowe. 
 
-\begin{lstlisting}[style=Matlab-editor, basicstyle=\tiny]
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  frame=single,
+  breaklines=true,
+  postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
+\begin{lstlisting}[style=Matlab-editor]
 t_sim2 = 300;
 
 %konstruowanie sygnalow sterujacych

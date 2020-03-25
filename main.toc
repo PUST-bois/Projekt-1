@@ -6,13 +6,13 @@
 \contentsline {chapter}{\numberline {2\relax .\enspace }Sprawdzenie poprawności wartości początkowych $U_{\textrm {PP}}$ oraz $Y_{\textrm {PP}}$}{4}%
 \contentsline {chapter}{\numberline {3\relax .\enspace }Badanie obiektu}{5}%
 \contentsline {section}{\numberline {3.1\relax .\enspace }Symulacja różnych odpowiedzi skokowych obiektu}{5}%
-\contentsline {section}{\numberline {3.2\relax .\enspace }Charakterystyka statyczna}{6}%
-\contentsline {chapter}{\numberline {4\relax .\enspace }Odpowiedź skokowa}{7}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }Implementacja PID}{8}%
-\contentsline {chapter}{\numberline {6\relax .\enspace }Implementacja DMC}{10}%
-\contentsline {chapter}{\numberline {7\relax .\enspace }Dobranie nastaw regulatorów metodą eksperymentalną}{12}%
-\contentsline {section}{\numberline {7.1\relax .\enspace }Eksperymentalne dobranie parametrów PID}{12}%
-\contentsline {section}{\numberline {7.2\relax .\enspace }Eksperymentalne dobranie parametrów DMC}{17}%
-\contentsline {chapter}{\numberline {8\relax .\enspace }Optymalizacja nastaw regulatora z użyciem dostępnych funkcji optymalizujących}{30}%
-\contentsline {section}{\numberline {8.1\relax .\enspace }Optymalizacja regulatora PID}{30}%
-\contentsline {section}{\numberline {8.2\relax .\enspace }Optymalizacja regulatora DMC}{30}%
+\contentsline {section}{\numberline {3.2\relax .\enspace }Charakterystyka statyczna}{5}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }Odpowiedź skokowa}{8}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Implementacja PID}{9}%
+\contentsline {chapter}{\numberline {6\relax .\enspace }Implementacja DMC}{11}%
+\contentsline {chapter}{\numberline {7\relax .\enspace }Dobranie nastaw regulatorów metodą eksperymentalną}{13}%
+\contentsline {section}{\numberline {7.1\relax .\enspace }Eksperymentalne dobranie parametrów PID}{13}%
+\contentsline {section}{\numberline {7.2\relax .\enspace }Eksperymentalne dobranie parametrów DMC}{18}%
+\contentsline {chapter}{\numberline {8\relax .\enspace }Optymalizacja nastaw regulatora z użyciem dostępnych funkcji optymalizujących}{31}%
+\contentsline {section}{\numberline {8.1\relax .\enspace }Optymalizacja regulatora PID}{31}%
+\contentsline {section}{\numberline {8.2\relax .\enspace }Optymalizacja regulatora DMC}{31}%
