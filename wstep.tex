@@ -17,7 +17,7 @@ W zadaniu projektowym wykorzystany został regulator PID. Algorytm ten, na podst
 Dobranie nastaw algorytmu oznacza znalezienie możliwie optymalnych nastaw zapewniających najlepszą jakość regulacji.
 \par Po wyznaczeniu parametrów, należy obliczyć wpółczynniki prawa regulacji używając następujących wzorów:
 \begin{equation}
-    r_2 = \frac{KTd}{T}
+    r_2 = \frac{KT_d}{T}
 \end{equation}
 \begin{equation}
     r_1 = K(\frac{T}{2T_i}-\frac{2T_d}{T}-1)
@@ -43,25 +43,25 @@ Regulator DMC jest algorytmem predykcyjnym wyznaczjącym trajektorię sygnału w
 Strojenie algorytmu polega na odpowiednim dobraniu parametrów tak, by zapewnić możliwie najlepszą jakość regulacji.
 
 \par Aby otrzymać prawo regulacji, należy wyznaczyć szereg współczynników:
-\newline Macierz dynamiczną oraz macierz K:
+\newline Macierz dynamiczną \textbf{M} oraz macierz \textbf{K}:
 \begin{gather}
-        M = \begin{bmatrix}
+       \mathbf{M} = \begin{bmatrix}
             s_1 & 0 & \cdots & 0\\
             s_2 & s_1 & \cdots & 0\\
             \vdots & \vdots & \ddots & \vdots \\
             s_N & s_{N-1} & \cdots & s_{N-N_u+1}
         \end{bmatrix} \\
-         K = (M^T \Psi M + \Lambda)^{-1} M^T \Psi 
+         \mathbf{K} = (\mathbf{M}^\textrm{T} \mathbf{\Psi} \mathbf{M }+ \mathbf{\Lambda})^{-1} \mathbf{M}^\textrm{T}\mathbf{ \Psi} 
 \end{gather}
-\newline Macierz $M^P$ oraz wektor zmian sterowania $\Delta U^P$:
+\newline Macierz $\mathbf{M}^\textrm{P}$ oraz wektor zmian sterowania $\Delta \mathbf{U}^\textrm{P}$:
 \begin{gather}
-        M^P = \begin{bmatrix}
+        \mathbf{M}^\textrm{P} = \begin{bmatrix}
             s_2-s_1 & s_3-s_2 & \cdots & s_D-s_{D-1}\\
             s_3-s_1 & s_4-s_2 & \cdots & s_{D+1}-s_{D-1}\\
             \vdots & \vdots & \ddots & \vdots \\
             s_{N+1}-s_1 & s_{N+2}-s_2 & \cdots & s_{N+D-1}-s_{D-1}
         \end{bmatrix} \\
-         \Delta U^P(k) = \begin{bmatrix}
+         \Delta \mathbf{U}^\textrm{P}(k) = \begin{bmatrix}
             \Delta u(k-1)\\
             \Delta u(k-2)\\
             \vdots\\
@@ -72,19 +72,18 @@ Strojenie algorytmu polega na odpowiednim dobraniu parametrów tak, by zapewnić
 Na podstawie powyższych macierzy oraz wektorów, można obliczyć parametry reguatora:
 \begin{gather}
         k_e = \sum^N_{i=1}K_{1,i}\\
-	k_u = \overline{K}_1 M^P
+	k_u = \mathbf{\overline{K}}_1 \mathbf{M}^\textrm{P}
 \end{gather}
 
 a następnie wyznaczyć sterowanie z następującego prawa regulacji:
 \begin{gather}
-	e(k) = y_{zad}(k) - y(k)\\
-    	u(k|k) = u(k - 1) + k_e e(k) - k_u \Delta U^P(k)
+	e(k) = y_{\textrm{zad}}(k) - y(k)\\
+    	u(k|k) = u(k - 1) + k_e e(k) - k_u \Delta \mathbf{U}^\textrm{P}(k)
 \end{gather}
 
 Ograniczenie wartości sygnału sterującego przez wartości maksymalną i minimalną wykonane jest w następujący sposób:
 \begin{enumerate}
-    \item jeżeli $u(k|k) < u_{min}$ wtedy $u(k|k) = u_{min}$
-\item jeżeli jeżeli $u(k|k) > u_{max}$ wtedy $u(k|k) = u_{max}$
-max
+    \item jeżeli $u(k|k) < u_{\textrm{min}}$ wtedy $u(k|k) = u_{\textrm{min}}$
+\item jeżeli jeżeli $u(k|k) > u_{\textrm{max}}$ wtedy $u(k|k) = u_{\textrm{max}}$
 \item $u(k) = u(k|k)$
 \end{enumerate}
