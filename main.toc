@@ -15,4 +15,4 @@
 \contentsline {section}{\numberline {7.2\relax .\enspace }Eksperymentalne dobranie parametrów DMC}{16}%
 \contentsline {chapter}{\numberline {8\relax .\enspace }zad6}{30}%
 \contentsline {section}{\numberline {8.1\relax .\enspace }Optymalizacja regulatora PID}{30}%
-\contentsline {section}{\numberline {8.2\relax .\enspace }Optymalizacja regulatora DMC}{30}%
+\contentsline {section}{\numberline {8.2\relax .\enspace }Optymalizacja regulatora DMC}{31}%
