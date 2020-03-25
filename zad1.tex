@@ -1,7 +1,8 @@
-\chapter{Zadanie 1}
+\chapter{Sprawdzenie poprawności wartości początkowych $U_{\textrm{PP}}$ oraz $Y_{\textrm{PP}}$}
 
-\section{Sprawdzenie poprawności wartości początkowych $U_{\textrm{PP}}$ oraz $Y_{\textrm{PP}}$}
+Aby sprawdzić poprawność założonego punktu pracy, przyjęto, że sterowanie obietku na czas symulacji będzie stałe, równe $U_{\textrm{PP}}$. Po czasie ustalenia się odpowiedzi obiektu, zbadano wartość wyjścia oraz porównano ją z $Y_{\textrm{PP}}$.
 
+\par Poniżej zamieszczono kod programu użytego do rozwiązania zadania:
 \begin{lstlisting}[style=Matlab-editor]
 %wyznaczanie y_pp dla u_pp = 1.1
 u_pp = 1.1;
@@ -14,8 +15,11 @@ for k=2:t_sim
     y = [y;y_temp];
 end
 
-figure(1)
-stairs(0:t_sim,y)
-
 y_pp = y(end);
 \end{lstlisting}
+
+Po ustalonym czasie symulacji \texttt{t\textunderscore sim = 300} zbadano przebieg sygnału wyjściowego.
+
+\par \textbf{TODO}
+
+Wartość, na której ustalił się sygnał wyjściowy to \num{2.5}, co potwierdza poprawność założonego punktu pracy.

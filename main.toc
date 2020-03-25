@@ -3,10 +3,16 @@
 \contentsline {section}{\numberline {1.2\relax .\enspace }Opis algorytmów}{2}%
 \contentsline {subsection}{\numberline {1.2.1\relax .\enspace }PID}{2}%
 \contentsline {subsection}{\numberline {1.2.2\relax .\enspace }DMC}{2}%
-\contentsline {chapter}{\numberline {2\relax .\enspace }Zadanie 1}{4}%
-\contentsline {section}{\numberline {2.1\relax .\enspace }Sprawdzenie poprawności wartości początkowych $U_{\textrm {PP}}$ oraz $Y_{\textrm {PP}}$}{4}%
-\contentsline {chapter}{\numberline {3\relax .\enspace }zad2}{5}%
-\contentsline {chapter}{\numberline {4\relax .\enspace }zad3}{6}%
-\contentsline {chapter}{\numberline {5\relax .\enspace }zad4}{7}%
-\contentsline {chapter}{\numberline {6\relax .\enspace }zad5}{8}%
-\contentsline {chapter}{\numberline {7\relax .\enspace }zad6}{9}%
+\contentsline {chapter}{\numberline {2\relax .\enspace }Sprawdzenie poprawności wartości początkowych $U_{\textrm {PP}}$ oraz $Y_{\textrm {PP}}$}{4}%
+\contentsline {chapter}{\numberline {3\relax .\enspace }Badanie obiektu}{5}%
+\contentsline {section}{\numberline {3.1\relax .\enspace }Symulacja różnych odpowiedzi skokowych obiektu}{5}%
+\contentsline {section}{\numberline {3.2\relax .\enspace }Charakterystyka statyczna}{5}%
+\contentsline {chapter}{\numberline {4\relax .\enspace }Odpowiedź skokowa}{7}%
+\contentsline {chapter}{\numberline {5\relax .\enspace }Implementacja PID}{8}%
+\contentsline {chapter}{\numberline {6\relax .\enspace }Implementacja DMC}{10}%
+\contentsline {chapter}{\numberline {7\relax .\enspace }zad5}{12}%
+\contentsline {section}{\numberline {7.1\relax .\enspace }Eksperymentalne dobranie parametrów PID}{12}%
+\contentsline {section}{\numberline {7.2\relax .\enspace }Eksperymentalne dobranie parametrów DMC}{16}%
+\contentsline {chapter}{\numberline {8\relax .\enspace }zad6}{30}%
+\contentsline {section}{\numberline {8.1\relax .\enspace }Optymalizacja regulatora PID}{30}%
+\contentsline {section}{\numberline {8.2\relax .\enspace }Optymalizacja regulatora DMC}{30}%
