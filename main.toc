@@ -10,9 +10,9 @@
 \contentsline {chapter}{\numberline {4\relax .\enspace }Odpowiedź skokowa}{7}%
 \contentsline {chapter}{\numberline {5\relax .\enspace }Implementacja PID}{8}%
 \contentsline {chapter}{\numberline {6\relax .\enspace }Implementacja DMC}{10}%
-\contentsline {chapter}{\numberline {7\relax .\enspace }zad5}{12}%
+\contentsline {chapter}{\numberline {7\relax .\enspace }Dobranie nastaw regulatorów metodą eksperymentalną}{12}%
 \contentsline {section}{\numberline {7.1\relax .\enspace }Eksperymentalne dobranie parametrów PID}{12}%
-\contentsline {section}{\numberline {7.2\relax .\enspace }Eksperymentalne dobranie parametrów DMC}{16}%
-\contentsline {chapter}{\numberline {8\relax .\enspace }zad6}{30}%
+\contentsline {section}{\numberline {7.2\relax .\enspace }Eksperymentalne dobranie parametrów DMC}{17}%
+\contentsline {chapter}{\numberline {8\relax .\enspace }Optymalizacja nastaw regulatora z użyciem dostępnych funkcji optymalizujących}{30}%
 \contentsline {section}{\numberline {8.1\relax .\enspace }Optymalizacja regulatora PID}{30}%
 \contentsline {section}{\numberline {8.2\relax .\enspace }Optymalizacja regulatora DMC}{30}%
