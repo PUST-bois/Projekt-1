@@ -1,0 +1,63 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage{pgfplots}
+\usepackage{siunitx}
+\sisetup{detect-weight,exponent-product=\cdot,output-decimal-marker={,},
+	per-mode=symbol,binary-units=true,range-phrase={-},range-units=single}
+\SendSettingsToPgf
+\usetikzlibrary{pgfplots.groupplots}
+\pgfplotsset{compat=1.10}
+\usepgfplotslibrary{external}
+\tikzexternalize
+
+\textwidth 160mm \textheight 247mm
+
+\pgfplotsset{width=\figurewidth,compat=1.10}
+\pgfplotsset{width=\figurewidth}
+\pgfplotsset{
+    tick label style={font=\tiny},
+    label style={font=\footnotesize},
+    legend style={font=\footnotesize},
+    title style={font=\footnotesize},
+}
+
+
+\newcommand{\szer}{16cm}
+\newcommand{\wys}{5.6cm}
+\newcommand{\odstepionowy}{1.2cm}
+
+\definecolor{kolor4}{rgb}{0,0,0.1724}
+\definecolor{kolor5}{rgb}{1.0000,0.1034,0.7241}
+\definecolor{kolor6}{rgb}{1.0000,0.8276,0}
+
+\begin{document}
+
+\tikzsetnextfilename{}
+
+\begin{figure}[tb]
+\tikzsetnextfilename{oscylacje}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=1 by 2,vertical sep=\odstepionowy},
+width=\szer,height=\wys]
+%%1
+\nextgroupplot
+[xmin=0,xmax=1600,ymin=2.45,ymax=2.6,
+xlabel=$t \ (\mathrm{s})$,ylabel=$u$,legend cell align=left,
+legend pos=north east]
+\addplot[const plot,color=blue,semithick] 
+file {oscylacje_out.txt};
+\addplot[const plot,color=red,semithick ,densely dashed] 
+file {oscylacje_zad.txt}; 
+\legend{$y$,$y^{\mathrm{zad}}$} 
+%%2
+\nextgroupplot
+[xmin=0,xmax=1600,ymin=0.95,ymax=1.25,
+xlabel=$t$,ylabel={$u$},
+legend pos = north east]
+\addplot[const plot,color=gray,thick] 
+file {oscylacje_in.txt};
+\legend{$u$} 
+\end{groupplot}
+\end{tikzpicture}
+\end{figure}
+
+\end{document}

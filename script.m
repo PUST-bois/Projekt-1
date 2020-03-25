@@ -54,31 +54,34 @@ stairs(0:t_sim2-1, y2)
 t_sim3 = 600;
 
 u = ones(t_sim3, 1) * u_pp;
-y = zeros(t_sim3, 1);
+y = ones(t_sim3, 1) * y_pp;
 
 % Stabilizuje obiekt w punkcie pracy po czym wykonuje skok w ramach
 % ograniczen
 for k = 3:t_sim3
 
     if k-11 <= 0
-        y(k) = symulacja_obiektu6Y(0,0,y(k-1),y(k-2));
+        y(k) = symulacja_obiektu6Y(u_pp,u_pp,y(k-1),y(k-2));
     else
         y(k) = symulacja_obiektu6Y(u(k-10),u(k-11),y(k-1),y(k-2));
     end
     
-    if k == 200
+    if k == 11
         y_pp = y(k);
-        u(200:t_sim3) = 1.4;
+        u(11:t_sim3) = 1.4;
     end
 end
 
 figure(3)
 stairs(0:t_sim3-1, y)
 
-s = (y(201:t_sim3) - y_pp) / (abs(0.3));
+s = (y(12:t_sim3) - y_pp) / (abs(0.3));
 figure(4)
 stairs(0:size(s)-1, s)
-
+odp_skok = [(0:size(s)-1)', s];
+dlmwrite("latex/wykresy/odp_skok.txt", odp_skok, 'delimiter','\t')
+% writematrix(M,"wykresy/odp_skok_space.txt", 'Delimiter', 'tab')
+% type 'wykresy/odp_skok_space.txt'
 
 %% ZAD 4A - PID
 
@@ -139,7 +142,7 @@ for k = 3:t_sim4
     u(k) = uk;
 end
 
-piderr
+piderr;
 figure(5)
 stairs(0:t_sim4-1, y)
 hold on
